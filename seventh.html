@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is a site about tea Purchase and donate">
+        <title>Purchase and donate</title>
+        <link rel="stylesheet" href="tea.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="teaimages/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="teaimages/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="teaimages/favicon-16x16.png">
+        <link rel="manifest" href="teaimages/site.webmanifest">
+        <link rel="mask-icon" href="teaimages/safari-pinned-tab.svg" color="#0b0909">
+        <link rel="shortcut icon" href="teaimages/favicon.ico">
+        <meta name="msapplication-TileColor" content="#0b0909">
+        <meta name="msapplication-config" content="teaimages/browserconfig.xml">
+        <meta name="theme-color" content="#0b0909">
+
+        
+    </head>
+    <body>
+        <header>
+
+        <div id="container">
+            <a href="index.html"><img id="logoImg" src="images\ceylon-tea-new.webp" alt="logo"></a><br>
+            <nav class="mainNav">
+                <ul>
+                    <li><a href="index.html"><span class="navText">Home</span></a></li>
+                    <li><a href="second.html"><span class="navText">Tea plantations</span></a></li>
+                    <li><a href="third.html"><span class="navText">Tea museum</span></a></li>
+                    <li><a href="fourth.html"><span class="navText">By products of tea</span></a></li>
+                    <li><a href="fifth.html"><span class="navText">Tea sales 1</span></a></li>
+                    <li><a href="sixth.html"><span class="navText">Tea sales 2</span></a></li>
+                    <li><a href="seventh.html"><span class="navText">Purchase and donate</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <img id="donate" src="images\slider1.webp" alt="Main image"><br>
+
+    <h1>HELP US TO LIFT SRI LANKAN TEA ESTATE COMMUNITIES</h1>
+    <P>We run educational programmes for children and young people in Sri Lankan tea estates, lifting them and their families out of poverty through employment, further education and training. The current constantly evolving economic situation in Sri Lanka, in particular, the high inflation and increased cost of living, is making it extremely difficult for our students to regularly attend school. They are being forced to choose between going to school and having enough food for their family.</P>
+    <p>An educated young person has an incredible ripple effect on the rest of their tea estate community. Also we hope to help the community by fulfilling their essential needs. 
+        Our mandate is to deliver high quality, accessible educational programmes, both full-time and part time, to young people and children from the tea estates surrounding Maskeliya, Nuwara Eliya and Talawakelle region of Central Province, Sri Lanka.</p><br>
+        <h3>How to donate</h3>
+        <p>You can send your donations through a bank transfer to any of the following bank account.</p>
+        <br><p>Account number : 0291937329108</p>
+        <p>Branch : Hatton National Bank Galle</p>
+        <br><p>Or you can transfer money online</p><br>
+
+
+
+    <div id="container2">
+        <div class="row">
+            Please select a fixed amount if you want to donate money
+            <select id="slct">
+                <option value="100">Rs.100.00</option>
+                <option value="500">Rs.500.00</option>
+                <option value="1000">Rs.1000.00</option>
+                <option value="2000">Rs.2000.00</option>
+                <option value="5000">Rs.5000.00</option>
+                <option value="10000">RS.10000.00</option>
+            </select>
+
+                <div class="box">
+                    <br><span>Name:</span> 
+                    <input type="text" id="name" required> 
+                    <h6 id="nameValid"></h6>
+                    
+                </div><br>
+
+                <div class="box">
+                    <span>Card number:</span>
+                    <input type="text" id="card-number" required>
+                    <h6 id="cardNumberValid"></h6>
+                    
+                </div><br>
+
+                <div class="box">
+                    <span id="ex-date">Expiry date:</span>
+                    <select id="ex-month">
+                        <option value="January">01</option>
+                        <option value="February">02 </option>
+                        <option value="March">03</option>
+                        <option value="April">04</option>
+                        <option value="May">05</option>
+                        <option value="June">06</option>
+                        <option value="July">07</option>
+                        <option value="August">08</option>
+                        <option value="September">09</option>
+                        <option value="October">10</option>
+                        <option value="November">11</option>
+                        <option value="December">12</option>
+                  </select>
+                  <select id="ex-year">
+                        <option value="1"> 2022</option>
+                        <option value="2"> 2023</option>
+                        <option value="3"> 2024</option>
+                        <option value="4"> 2025</option>
+                        <option value="5"> 2026</option>
+                        <option value="6"> 2027</option>
+                        <option value="7"> 2028</option>
+                        <option value="8"> 2029</option>
+                        <option value="9"> 2030</option>
+                    </select>
+                </div><br>
+
+                <div class="box">
+                    <span>CVC/CVV:</span>
+                    <input type="text" id="cvc" maxlength="4" required>
+                    <h6 id="cvcValid"></h6>
+                    
+                </div><br>
+
+                <div class="box">
+                    <span>Name on card:</span>
+                    <input type="text" id="card-name" required>
+                    <h6 id="cardNameValid"></h6>
+                    
+                </div><br>
+                
+                <button type="button" id="pay">Pay Now</button>
+                
+        
+            </div>
+        </div>
+    
+
+
+
+        <br><p>You can help us by purchasing the products that are handmade.</p>
+
+        <div class="products2">
+        <div class="purchase1">
+        <img class="elephant" src="images\craft9.webp" alt="Wooden elephant" >
+        <h3>Wooden Eliphant</h3> <h5>LKR 1,200.00</h5>
+        <button class="buy1">Purchase Now</button>
+        </div>
+        <div class="purchase2">
+        <img class="bowl" src="images\craft8.webp" alt="Hand carved coconut wood bowl">
+        <h3>Coconut wood bowl</h3> <h5>LKR 1,850.00</h5>
+        <button class="buy2">Purchase Now</button>
+        </div>
+        <div class="purchase3">
+        <img class="helephant" src="images\craft4.webp" alt="Handloom elephant">
+        <h3>Handloom elephant</h3> <h5>LKR 700.00</h5>
+        <button class="buy3">Purchase Now</button>
+        </div>
+
+        <br>
+        <div class="purchase4">
+        <img class="gift1" src="images\craft1.webp" alt="Wooden gift ornament">
+        <h3>Wooden gift ornament</h3> <h5>LKR 2,900.00</h5>
+        <button class="buy4">Purchase Now</button>
+        </div>
+        <div class="purchase5">
+        <img class="gift2" src="images\craft2.webp" alt="Wooden gift ornament">
+        <h3>Wooden gift ornament</h3> <h5>LKR 2,900.00</h5>
+        <button class="buy5">Purchase Now</button>
+        </div>
+        
+        <div class="purchase6">
+        <img class="shell" src="images\craft5.webp" alt="Handmade jewellery">
+        <h3>Handmade jewellery</h3> <h5>LKR 500.00</h5>
+        <button class="buy6">Purchase Now</button>
+        </div>
+        <div class="purchase7">
+        <img class="bag" src="images\craft6.webp" alt="Coconut shell Elephant pendant">
+        <h3>Coconut shell Elephant pendant</h3> <h5>LKR 1,500.00</h5>
+        <button class="buy7">Purchase Now</button>
+        </div>
+        <div class="purchase8">
+        <img class="handmade" src="images\craft7.webp" alt="Women’s hand bag">
+        <h3>Women’s hand bag</h3> <h5>LKR 1,550.00</h5>
+        <button class="buy8">Purchase Now</button>
+        </div>
+        </div>
+
+        <div class="footer">
+            <nav>
+                <div class="content-footer">
+                    <h3>Quick Links</h3><br>
+            <ul>
+                <li><a href="index.html"><span class="navText">Home</span></a></li>
+                <li><a href="second.html"><span class="navText">Tea plantations</span></a></li>
+                <li><a href="third.html"><span class="navText">Tea museum</span></a></li>
+                <li><a href="fourth.html"><span class="navText">By products of tea</span></a></li>
+                <li><a href="fifth.html"><span class="navText">Tea sales 1</span></a></li>
+                <li><a href="sixth.html"><span class="navText">Tea sales 2</span></a></li>   
+                <li><a href="seventh.html"><span class="navText">Purchase and donate</span></a></li>
+            </ul>
+            <center><p>Copyright &copy;2022</p></center>
+                    
+        </div>
+            <!--Tealeaftrust.2022Tea Leaf Trust. [Online] Available from: https://tealeaftrust.com/[Accessed: 19th of July 2022]-->
+            <!--Sudath-travels.2022Sudath Handicraft. [Online] Available from: https://sudath-travels.com/handicraft/[Accessed: 19th of July 2022]-->
+                
+             
+            </nav>
+        </div>
+        </footer>
+        <script src="main1.js"></script>
+    </body>
+</html>  
