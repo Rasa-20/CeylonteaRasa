@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is a site about tea sales">
+        <title>Buy tickets</title>
+        <link rel="stylesheet" href="tickets.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="teaimages/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="teaimages/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="teaimages/favicon-16x16.png">
+        <link rel="manifest" href="teaimages/site.webmanifest">
+        <link rel="mask-icon" href="teaimages/safari-pinned-tab.svg" color="#0b0909">
+        <link rel="shortcut icon" href="teaimages/favicon.ico">
+        <meta name="msapplication-TileColor" content="#0b0909">
+        <meta name="msapplication-config" content="teaimages/browserconfig.xml">
+        <meta name="theme-color" content="#0b0909">
+</head>
+
+<body>
+
+   
+
+
+<img id="ticketspic" src="images\pexels-koko-rahmadie-227908.webp" alt="Tickets"><br>
+
+
+
+
+
+
+    <!--Train booking tickets-->
+<form id="trainticket">
+    <h1>Book your museum train tickets</h1>
+
+
+        
+<!--Calendar-->
+        <fieldset>
+            <p>Pick a date</p>
+            <legend><h3>Dates</h3></legend>
+            <p>
+                <input type="date" id="cal" name="dates">
+            </p>      
+        </fieldset>
+    
+
+<!--Information about guests-->
+        <fieldset>
+            <legend><h3>Guests</h3></legend>
+            <p>
+                <br> Full name : <input type="text" id="nme" name="name" required><h6 id="nameValid"></h6><br>
+                <br> Mobile number : <input type="text" id="mob" name="number" required><h6 id="numberValid"></h6><br>
+                <br> Email : <input type="text" id="mail" name="email" required><h6 id="emailValid"></h6><br>
+                <br> Confirm email : <input type="text" id="mail" name="coEmail" required><h6 id="coEmailValid"></h6><br>
+            
+                <br>Gender :
+                    <select id="gndr" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select><br>
+                </fieldset>
+
+            
+<!--The number of tourists that are coming-->
+<fieldset>
+                <legend><h3>Number of tourists</h3></legend>
+
+                    <br><label for="SL Adult">SL Adult </label>
+                        <div class="wrap">
+                        <span class="minus">-</span>
+                        <span class="num">0</span>
+                        <span class="plus">+</span>
+                    </div>
+                    
+                    <br><label for="Foreign Adult">Foreign Adult </label>
+                        <div class="wrap">
+                        <span class="minus1">-</span>
+                        <span class="num1">0</span>
+                        <span class="plus1">+</span>
+                    </div>
+
+                    <br><label for="SL Child">SL Child </label>
+                    <div class="wrap">
+                        <span class="minus2">-</span>
+                        <span class="num2">0</span>
+                        <span class="plus2">+</span>
+                    </div>
+    
+                    <br><label for="Foreign Child">Foreign Child </label>
+                    <div class="wrap">
+                        <span class="minus3">-</span>
+                        <span class="num3">0</span>
+                        <span class="plus3">+</span>
+                    </div>
+    
+                    <br><label for="Infant">Infant </label>
+                    <div class="wrap">
+                        <span class="minus4">-</span>
+                        <span class="num4">0</span>
+                        <span class="plus4">+</span>
+                    </div>
+            </p>
+        </fieldset>      
+    
+
+<!--Selecting time-->
+        <fieldset>
+            <br><legend><h3>Duration</h3></legend>
+            <p>
+                Select your duration :
+                <select id="hrs" name="duration">
+                    <option value="3 hours">3 hours</option>
+                    <option value="1/2 day">1/2 day</option>
+                    <option value="24 hours">24 hours</option>
+                </select>
+            </p>    
+        </fieldset>
+    
+
+        <!--This is to get the total-->
+        <br>
+        <fieldset id="ordr" name="order">
+            <legend>Total</legend>
+            <h id="overallOrder">The total is</h>
+        </fieldset>
+
+
+
+<!--This is for the empty box to get the overall order-->
+        <br><p id="output" name="output">
+            <h id="costOutput"> This is your overall order</h></p><br>
+
+
+        <button type="button" id="add">Add to order</button>
+        <button type="button" id="order">Place order</button><br>
+        <br>
+
+        <button type="button" id="addFavourites">Add to favourites</button>
+        <button type="button" id="orderFavourites">Order favourites</button><br>
+
+        <br>
+        <button type="button" id="loyalty">Loyalty points</button>
+
+            
+    </form>
+    
+    <div class="back-btn">
+    <a href="third.html" class="btn"><b>Go Back</b></a>
+    </div>
+
+
+
+    
+        
+
+    <!--Pexels. (2021) 10,000+best tea photos . [Online] Available from: https://www.pexels.com/search/tea/ [Accessed: 12th of December 2022].-->
+        
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
